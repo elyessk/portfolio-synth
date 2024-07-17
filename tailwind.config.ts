@@ -26,22 +26,25 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        space: "Space Grotesk, sans-serif",
+      },
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          100: "#020818",
+          200: "#051238",
+          300: "#071D58",
         },
         white: {
           DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          100: "#F2F5F7",
+          200: "#E6EAF0",
         },
-        blue: {
-          "100": "#E4ECFF",
+        neutralBlue: {
+          "100": "#556F8E",
         },
-        purple: "#CBACF9",
+        purple: "#ED3535",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
